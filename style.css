@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    position: relative;
+}
+
+#menu-logo, #close-logo{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+section {
+    background-color: rgb(243, 234, 234);
+    max-width: 100%;
+    color: darkslategrey;
+    border-bottom: 0.25rem grey dashed;
+}
+
+.link {
+    background-color: gray;
+    color: white;
+    border: 0;
+    border-radius: 10%;
+    height: 2rem;
+    font-size: 1rem;
+    width: 7.5rem;
+}
+
+.title-element{
+    font-size: 1.45rem;
+}
+
+/* nav bar section */
+
+.nav-section{
+    height: max-content;
+    width: 50%;
+    background-color: white;
+    font-size: 1.5rem;
+    list-style: none;
+    z-index: 1;
+    margin: 0;
+}
+
+
+
+li {
+    padding: 1rem;
+}
+
+li:hover{
+    border-bottom: 2px black solid;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    background-color: white;
+    height: 4rem;
+}
+
+.invisible {
+    display: none;
+}
+
+#menu-bar-select {
+    background-color: antiquewhite;
+    width: 100%;
+}
+
+option {
+    height: 50px;
+}
+
+/* first section */
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15rem 5rem;
+}
+
+/* second section */
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 3rem;
+}
+
+#display-shape {
+    height: 15rem;
+    width: 30rem;
+    background-color: grey;
+}
+
+#second-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35rem;
+    font-size: 1.5rem;
+}
+
+/* third section */
+
+.section-3 {
+    display: flex;
+    padding: 5rem 3rem;
+    justify-content: space-between;
+}
+
+#third-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35rem;
+    font-size: 1.5rem;
+}
+
+/* fourth section */
+
+.section-4 {
+    min-height: 40rem;
+}
+
+.section-4 > select {
+    display: block;
+    position: relative;
+    width: 15rem;
+    height: 3rem;
+    margin: 0 auto;
+}
+
+.section-4 > div {
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 2rem;
+}
+
+.title-card-1 {
+    height: 15rem;
+    width: 9rem;
+    left: 10rem;
+}
+
+.title-card-2 {
+    height: 15rem;
+    width: 9rem;
+    right: 5rem;
+}
+
+.title-card-3 {
+    height: 12rem;
+    top: 118rem;
+    width: 15rem;
+    left: 10rem;
+}
+
+.title-card-4 {
+    height: 15rem;
+    width: 18rem;
+    right: 5rem;
+    top: 118rem;
+}
+
+.title-card-5 {
+    height: 15rem;
+    width: 18rem;
+    right: 35rem;
+    top: 112rem;
+}
+
+/* fifth section */
+
+.section-5{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    padding: 5rem 3rem;
+}
+
+.action-card {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    min-height: 20rem;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.white-text-content {
+    color: white;
+}
+
+.action-link{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    color: gray;
+    border: 0;
+}
+
+/* sixth section */
+
+.section-6{
+    padding: 1rem 3rem;
+    height: 80%;
+}
+
+#master-square{
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#black-square-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 70rem;
+    height: 26rem;
+    position: absolute;
+    margin-left: -1rem;
+    margin-top: -1rem;
+    z-index: 2;
+}
+
+.black-square {
+    background-color: darkgray;
+    width: 18rem;
+    height: 12rem;
+}
+
+#square-two {
+    align-self: center;
+}
+
+#square-three {
+    align-self: flex-end;
+}
+
+#white-square-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 70rem;
+    height: 26rem;
+    position: absolute;
+    bottom: 2rem;
+    right: 0rem;
+    z-index: 0;
+
+}
+
+.white-square {
+    background-color: white;
+    width: 18rem;
+    height: 12rem;
+}
+
+/* footer */
+
+.footer {
+    background-color: gray;
+    padding: 1rem 3rem;
+    overflow: hidden;
+    z-index: 9;
+
+}
