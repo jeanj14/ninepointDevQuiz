@@ -9,5 +9,5 @@ menu.addEventListener("click", function(){
     menu_logo.classList.toggle("invisible");
 })
 
-var navlinks = document.querySelectorAll("li");
-var sections = document.querySelectorAll("section");
+let navlinks = document.querySelectorAll("li");
+let sections = document.querySelectorAll("section");
